@@ -4,11 +4,6 @@ import java.util.List;
 
 public class Day01 extends AOCDay {
 
-    public Day01() {
-        this.testDataFilename = "day01test.txt";
-        this.dataFileName = "day01.txt";
-    }
-
     @Override
     long task1(boolean isTest) {
         List<String> lines = getDataAsStringLines(isTest);
