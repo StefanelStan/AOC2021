@@ -9,7 +9,7 @@ import java.util.Collections;
 import java.util.List;
 
 public abstract class AOCDay {
-    protected String getRootFileName() {
+    private String getRootFileName() {
         return getClass().getSimpleName().toLowerCase();
     }
 
