@@ -9,7 +9,8 @@ public class Start {
 //        start.day03();
 //        start.day04();
 //        start.day05();
-        start.day06();
+//        start.day06();
+        start.day07();
     }
 
     private void day01() {
@@ -61,5 +62,14 @@ public class Start {
 //        System.out.println(day06.task1(false));
         System.out.println(day06.task2(true));
         System.out.println(day06.task2(false));
+    }
+
+    public void day07() {
+        Day07 day07 = new Day07();
+
+//        System.out.println(day07.task1(true));
+//        System.out.println(day07.task1(false));
+//        System.out.println(day07.task2(true));
+        System.out.println(day07.task2(false));
     }
 }
